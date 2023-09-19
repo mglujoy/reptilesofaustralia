@@ -4,6 +4,13 @@ img {
 #magazine {
     width: 200px;
 }
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
 /*
  * Globals
  */
@@ -34,6 +41,7 @@ html,
 body {
   height: 100%;
   background-color: #333;
+  margin-top: 25px;
 }
 
 body {
@@ -85,7 +93,7 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
-
+/*
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
@@ -94,7 +102,7 @@ body {
     float: right;
   }
 }
-
+*/
 
 /*
  * Cover
